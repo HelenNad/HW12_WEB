@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-hw11"
+version = "0.1.0"
+description = ""
+authors = ["HelenNad <htkachenko88@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.30"
+libgravatar = "^1.0.4"
+passlib = "^1.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
